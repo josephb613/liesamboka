@@ -6,37 +6,92 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
 </head>
 
 <body>
-  <header>
-    <h1>Location d'engins agricoles</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="#">Nos engins</a></li>
-        <li><a href="#">Réservation</a></li>
-        <li><a href="#">Mots du Fondateur</a></li>
-      </ul>
-    </nav>
-  </header>
+<header>
+  <div class="header-top">
+    <div class="container">
+      <div class="phone">
+        <i class="fas fa-phone"></i>
+        01 23 45 67 89
+      </div>
+      <div class="email">
+        <i class="fas fa-envelope"></i>
+        contact@location-tracteurs.com
+      </div>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="header-main">
+    <div class="container">
+      <div class="logo">
+        <a href="/"><img src="logo/logo.png" alt="Location de Tracteurs"></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/">Accueil</a></li>
+          <li><a href="/tracteurs">Nos Tracteurs</a></li>
+          <li><a href="Reservation/réservation.html">Réservation</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>  
+      </nav>
+      <div class="search">
+        <form>
+          <input type="text" placeholder="Rechercher...">
+          <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+  </div>
+</header>
+ 
 
   <main>
+
+  <body>
+ 
+  
+ <div class="slide-container">
+    <h2>Bienvenue sur notre site de location d'engins agricoles</h2>
+    <p>Nous proposons à la location une large gamme d'engins agricoles performants pour tous vos travaux <br>Vous
+      trouverez chez nous de quoi répondre à vos besoins.
+
+      Tracteurs, moissonneuses-batteuses, pulvérisateurs,
+      ensileuses... nos engins sont entretenus et contrôlés
+      régulièrement par nos équipes.
+
+      <br>Réservez votre engin facilement en quelques clics et profitez d'un service de proximité et de conseils
+      techniques.
+    </p>
+      <div class="custom-slider fade">
+        <img class="slide-img" src="img-transition/1.png">
+      </div>
+      <div class="custom-slider fade">
+        <img class="slide-img" src="img-transition/2.png">
+      </div>
+      <div class="custom-slider fade">
+        <img class="slide-img" src="img-transition/3.png">
+      </div>
+        <div class="custom-slider fade">
+        <img class="slide-img" src="img-transition/4.png">
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
     <br>
-    <section id="introduction">
-      <h2>Bienvenue sur notre site de location d'engins agricoles</h2>
-      <p>Nous proposons à la location une large gamme d'engins agricoles performants pour tous vos travaux <br>Vous
-        trouverez chez nous de quoi répondre à vos besoins.
-
-        Tracteurs, moissonneuses-batteuses, pulvérisateurs,
-        ensileuses... nos engins sont entretenus et contrôlés
-        régulièrement par nos équipes.
-
-        <br>Réservez votre engin facilement en quelques clics et profitez d'un service de proximité et de conseils
-        techniques.
-      </p>
-    </section>
-
+    <div class="slide-dot">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+ <br><br><br>
     <section id="engins">
 
       <div class="align" style="text-align: center;">
@@ -46,9 +101,7 @@
       <div class="container">
 
         <div class="engin">
-          <img
-            src="lib-image-renderer ⏵ Picture ⏵ pel50g_mini_pelle_thermique_cabine_chenilles_01_20221115_f6c1ad8d9e.png.png"
-            alt="Tracteur">
+          <img src="" alt="Tracteur">
           <h4>Tracteur Class Axion 920</h4>
           <p>220 ch, année 2020, GPS auto-guidage</p>
           <span>
@@ -58,24 +111,21 @@
         </div>
 
         <div class="engin">
-          <img src="lib2-image-renderer ⏵ Picture ⏵ camben_camion_benne_simple_cabine_01_20221115_fc7b034f4a.png.png"
-            alt="Tracteur">
+          <img src=""  alt="Tracteur">
           <h4>Tracteur Kubota M7172</h4>
           <p>170 ch, année 2019, cabine confort</p>
           <a href="src/btn/btnVoirePlus.html">Voir détails</a>
         </div>
         <div class="engin">
           <img
-            src="lib-image-renderer ⏵ Picture ⏵ pel50g_mini_pelle_thermique_cabine_chenilles_01_20221115_f6c1ad8d9e.png.png"
-            alt="Tracteur">
+            src="" alt="Tracteur">
           <h4>Tracteur Kubota M7172</h4>
           <p>170 ch, année 2019, cabine confort</p>
           <a href="src/btn/btnVoirePlus.html">Voir détails</a>
         </div>
         <div class="engin">
           <img
-            src="lib-image-renderer ⏵ Picture ⏵ pel50g_mini_pelle_thermique_cabine_chenilles_01_20221115_f6c1ad8d9e.png.png"
-            alt="Tracteur">
+            src="" alt="Tracteur">
           <h4>Tracteur Kubota M7172</h4>
           <p>170 ch, année 2019, cabine confort</p>
           <a href="src/btnVoirePlus.html">Voir détails</a>
@@ -85,7 +135,7 @@
       <h3>Moissonneuses-batteuses</h3>
 
       <div class="engin">
-        <img src="moissonneuse.jpg" alt="Moissonneuse-batteuse">
+        <img src="" alt="">
         <h4>Moissonneuse Claas Triton 430</h4>
         <p>450 ch, coupe de 6m, année 2018</p>
         <a href="#">Voir détails</a>
@@ -99,7 +149,7 @@
 
       <div class="NewsLatter__img">
         <img
-          src="lib-image-renderer ⏵ Picture ⏵ pel50g_mini_pelle_thermique_cabine_chenilles_01_20221115_f6c1ad8d9e.png.png" alt="logo">
+          src="" alt="logo">
       </div>
 
       <div class="NewsLatter__paragraphe">

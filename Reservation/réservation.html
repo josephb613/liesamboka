@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+  <a href="https://wa.me/33612345678" target="_blank" class="whatsapp-button">
+  <i class="fab fa-whatsapp"></i> WhatsApp 
+</a>
+</header>
+    <main>
+      <div class="reservation-header">
+        <div class="container">
+          <h1>Réservez votre tracteur en quelques clics</h1>
+          <p>
+            Trouvez le tracteur adapté à vos besoins parmi notre large choix et
+            réservez-le en ligne facilement et rapidement.
+          </p>
+        </div>
+      </div>
+
+      <div class="reservation-form">
+        <div class="container">
+          <form>
+            <h2>Vos coordonnées</h2>
+
+            <div class="form-group">
+              <label>Nom</label>
+              <input type="text" name="nom" />
+            </div>
+
+            <div class="form-group">
+              <label>Prénom</label>
+              <input type="text" name="prenom" />
+            </div>
+
+            <!-- autres champs coordonnées... -->
+
+            <h2>Votre réservation</h2>
+
+            <div class="form-group">
+              <label>Date de début</label>
+              <input type="date" name="debut" />
+            </div>
+
+            <div class="form-group">
+              <label>Date de fin</label>
+              <input type="date" name="fin" />
+            </div>
+
+            <div class="form-group">
+              <label>Modèle de tracteur</label>
+              <select name="tracteur">
+                <option>Tracteur A</option>
+                <option>Tracteur B</option>
+                <option>Tracteur C</option>
+              </select>
+            </div>
+
+            <!-- autres champs reservation... -->
+
+            <button type="submit">Réserver</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
