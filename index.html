@@ -6,195 +6,232 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css animation/animation.css">
   <script src="main.js"></script>
 </head>
 
 <body>
-<header>
-  <div class="header-top">
-    <div class="container">
-      <div class="phone">
-        <i class="fas fa-phone"></i>
-        01 23 45 67 89
-      </div>
-      <div class="email">
-        <i class="fas fa-envelope"></i>
-        contact@location-tracteurs.com
-      </div>
-      <div class="social">
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-      </div>
-    </div>
-  </div>
-
-  <div class="header-main">
-    <div class="container">
-      <div class="logo">
-        <a href="/"><img src="logo/logo.png" alt="Location de Tracteurs"></a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="/">Accueil</a></li>
-          <li><a href="/tracteurs">Nos Tracteurs</a></li>
-          <li><a href="Reservation/réservation.html">Réservation</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>  
-      </nav>
-      <div class="search">
-        <form>
-          <input type="text" placeholder="Rechercher...">
-          <button type="submit"><i class="fas fa-search"></i></button>
-        </form>
+  <header>
+    <div class="header-top">
+      <div class="container">
+        <div class="phone">
+          <i class="fas fa-phone"></i>
+          01 23 45 67 89
+        </div>
+        <div class="email">
+          <i class="fas fa-envelope"></i>
+          contact@location-tracteurs.com
+        </div>
+        <div class="social">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
       </div>
     </div>
-  </div>
-</header>
- 
 
-  <main>
+    <div class="header-main">
+      <div class="container">
+        <div class="logo">
+          <a href="/"><img src="logo/logo.png" alt="Location de Tracteurs"></a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/tracteurs">Nos Tracteurs</a></li>
+            <li><a href="Reservation/réservation.html">Réservation</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="search">
+          <form>
+            <input type="text" placeholder="Rechercher...">
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
 
   <body>
- 
-  
- <div class="slide-container">
-    <h2>Bienvenue sur notre site de location d'engins agricoles</h2>
-    <p>Nous proposons à la location une large gamme d'engins agricoles performants pour tous vos travaux <br>Vous
-      trouverez chez nous de quoi répondre à vos besoins.
+    <main>
 
-      Tracteurs, moissonneuses-batteuses, pulvérisateurs,
-      ensileuses... nos engins sont entretenus et contrôlés
-      régulièrement par nos équipes.
+      <div class="slide-container"
+        style="background-color: rgb(201, 199, 199); width: 500px; text-align: center; border-radius: 3px;">
+        <h2>Bienvenue sur notre site de location d'engins agricoles</h2>
+        <p>Nous proposons à la location une large gamme d'engins agricoles performants pour tous vos travaux <br>Vous
+          trouverez chez nous de quoi répondre à vos besoins.
 
-      <br>Réservez votre engin facilement en quelques clics et profitez d'un service de proximité et de conseils
-      techniques.
-    </p>
-      <div class="custom-slider fade">
-        <img class="slide-img" src="img-transition/1.png">
-      </div>
-      <div class="custom-slider fade">
-        <img class="slide-img" src="img-transition/2.png">
-      </div>
-      <div class="custom-slider fade">
-        <img class="slide-img" src="img-transition/3.png">
-      </div>
-        <div class="custom-slider fade">
-        <img class="slide-img" src="img-transition/4.png">
-      </div>
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <br>
-    <div class="slide-dot">
-      <span class="dot" onclick="currentSlide(1)"></span> 
-      <span class="dot" onclick="currentSlide(2)"></span> 
-      <span class="dot" onclick="currentSlide(3)"></span> 
-    </div>
- <br><br><br>
-    <section id="engins">
+          Tracteurs, moissonneuses-batteuses, pulvérisateurs,
+          ensileuses... nos engins sont entretenus et contrôlés
+          régulièrement par nos équipes.
 
-      <div class="align" style="text-align: center;">
-        <h2>Nos engins disponibles à la location</h2>
-        <h3>Tracteurs</h3>
+          <br>Réservez votre engin facilement en quelques clics et profitez d'un service de proximité et de conseils
+          techniques.
+        </p>
       </div>
-      <div class="container">
 
-        <div class="engin">
-          <img src="" alt="Tracteur">
-          <h4>Tracteur Class Axion 920</h4>
-          <p>220 ch, année 2020, GPS auto-guidage</p>
-          <span>
-            <p>Prix location 60$ jours</p>
-          </span>
-          <a href="src/btn/btnVoirePlus.html">Voir détails</a>
+      <div class="bodyBanner">
+
+        <section class="carousel" aria-label="Gallery">
+
+          <ol class="carousel__viewport">
+            <li id="carousel__slide1" class="carousel__slide">
+              <div class="carousel__snapper">
+                <a href="#carousel__slide4" class="carousel__prev"></a>
+                <!-- <a href="#carousel__slide2"
+           class="carousel__next">Go to next slide</a> -->
+              </div>
+            </li>
+
+
+            <li id="carousel__slide2" class="carousel__slide">
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide1" class="carousel__prev"></a>
+              <!-- <a href="#carousel__slide3"
+         class="carousel__next">Go to next slide</a> -->
+            </li>
+          </ol>
+          <!-- <aside class="carousel__navigation">
+            <ol class="carousel__navigation-list">
+              <li class="carousel__navigation-item">
+                <a href="#carousel__slide1" class="carousel__navigation-button"></a>
+              </li>
+              <li class="carousel__navigation-item">
+                <a href="#carousel__slide2" class="carousel__navigation-button"></a>
+              </li>
+              <li class="carousel__navigation-item">
+                <a href="#carousel__slide3" class="carousel__navigation-button"></a>
+              </li>
+              <li class="carousel__navigation-item">
+                <a href="#carousel__slide4" class="carousel__navigation-button"></a>
+              </li>
+            </ol>
+          </aside> -->
+        </section>
+      </div>
+
+
+      <br><br><br><br><br><br><br><br>
+
+      <!-- Moissonneuses-batteuses -->
+      <section id="engins">
+        <div class="align" style="text-align: center;">
+          <h2>Nos engins disponibles à la location</h2>
+          <h3>Tracteurs</h3>
         </div>
+        <div class="container">
 
-        <div class="engin">
-          <img src=""  alt="Tracteur">
-          <h4>Tracteur Kubota M7172</h4>
-          <p>170 ch, année 2019, cabine confort</p>
-          <a href="src/btn/btnVoirePlus.html">Voir détails</a>
-        </div>
-        <div class="engin">
-          <img
-            src="" alt="Tracteur">
-          <h4>Tracteur Kubota M7172</h4>
-          <p>170 ch, année 2019, cabine confort</p>
-          <a href="src/btn/btnVoirePlus.html">Voir détails</a>
-        </div>
-        <div class="engin">
+          <div class="engin">
+            <img src="" alt="Tracteur">
+            <h4>Tracteur Class Axion 920</h4>
+            <p>220 ch, année 2020, GPS auto-guidage</p>
+            <span>
+              <p>Prix location 60$ jours</p>
+            </span>
+            <a href="src/btn/btnVoirePlus.html">Voir détails</a>
+          </div>
+
+          <div class="engin">
+            <img src="" alt="Tracteur">
+            <h4>Tracteur Kubota M7172</h4>
+            <p>170 ch, année 2019, cabine confort</p>
+            <a href="src/btn/btnVoirePlus.html">Voir détails</a>
+          </div>
+
+
+          <div class="engin">
+            <div id="slideshow">
+              <div class="slide-wrapper">
+                <div class="slide">
+                  <h1 class="slide-number"></h1>
+                </div>
+                <div class="slide">
+                  <h1 class="slide-number"></h1>
+                </div>
+                <div class="slide">
+                  <h1 class="slide-number"></h1>
+                </div>
+                <div class="slide">
+                  <h1 class="slide-number"></h1>
+                </div>
+                <div class="slide">
+                  <h1 class="slide-number"></h1>
+                </div>
+              </div>
+            </div>
+            <img
+              src="img_tracteur/lib2-image-renderer ⏵ Picture ⏵ camben_camion_benne_simple_cabine_01_20221115_fc7b034f4a.png.png"
+              alt="Tracteur">
+            <h4>Tracteur Kubota M7172</h4>
+            <p>170 ch, année 2019, cabine confort</p>
+            <a href="src/btn/btnVoirePlus.html">Voir détails</a>
+          </div>
+
+          <!-- <div class="engin">
           <img
             src="" alt="Tracteur">
           <h4>Tracteur Kubota M7172</h4>
           <p>170 ch, année 2019, cabine confort</p>
           <a href="src/btnVoirePlus.html">Voir détails</a>
+        </div> -->
+
         </div>
+        <h3>Moissonneuses-batteuses</h3>
 
-      </div>
-      <h3>Moissonneuses-batteuses</h3>
+        <div class="engin">
+          <img src="" alt="">
+          <h4>Moissonneuse Claas Triton 430</h4>
+          <p>450 ch, coupe de 6m, année 2018</p>
+          <a href="#">Voir détails</a>
+        </div>
+      </section>
 
-      <div class="engin">
-        <img src="" alt="">
-        <h4>Moissonneuse Claas Triton 430</h4>
-        <p>450 ch, coupe de 6m, année 2018</p>
-        <a href="#">Voir détails</a>
-      </div>
-    </section>
 
-    <section id="reservation">
-      <h2>Réservez votre engin en ligne</h2>
-    </section>
-    <div class="ctr__NewsLatters">
+      <!-- Réservez votre engin en ligne -->
 
-      <div class="NewsLatter__img">
-        <img
-          src="" alt="logo">
-      </div>
+      <section id="reservation">
+        <h2>Réservez votre engin en ligne</h2>
 
-      <div class="NewsLatter__paragraphe">
+        <div class="ctr__NewsLatters">
 
-        <h4>Inscrivez-vous à notre newsletter</h4>
-        <h5>et ne ratez plus aucune bonne affaire !</h5>
-        <div>
-          <form>
-            <div class="search">
+          <div class="NewsLatter__img">
+            <img src="" alt="logo">
+          </div>
 
-              <div class="search-bar">
-                <!-- <i class="fa-solid fa-location-dot"></i> -->
-                <input type="text" placeholder="Enter Your Address">
-              </div>
-              <button><i class="fa-solid fa-magnifying-glass"></i>Je m'inscris</button>
+          <div class="NewsLatter__paragraphe">
+            <h4>Inscrivez-vous à notre newsletter</h4>
+            <h5>et ne ratez plus aucune bonne affaire !</h5>
+            <div>
+              <form>
+                <div class="search">
+
+                  <div class="search-bar">
+                    <!-- <i class="fa-solid fa-location-dot"></i> -->
+                    <input type="text" placeholder="Enter Your Address">
+                  </div>
+                  <button><i class="fa-solid fa-magnifying-glass"></i>Je m'inscris</button>
+                </div>
+              </form>
             </div>
-          </form>
+            <p> Votre adresse e-mail est uniquement utilisée pour vous informer sur les actualités et services de
+              Agriaffaires,
+              vous
+              envoyer des propositions commerciales et promotionnelles, des offres de nos partenaires et élaborer des
+              statistiques.
+              Vous pouvez à tout moment utiliser le lien de désabonnement intégré dans la newsletter. En savoir plus sur
+              la
+              gestion de
+              vos données et vos droits.</p>
+          </div>
         </div>
-        <p> Votre adresse e-mail est uniquement utilisée pour vous informer sur les actualités et services de
-          Agriaffaires,
-          vous
-          envoyer des propositions commerciales et promotionnelles, des offres de nos partenaires et élaborer des
-          statistiques.
-          Vous pouvez à tout moment utiliser le lien de désabonnement intégré dans la newsletter. En savoir plus sur la
-          gestion de
-          vos données et vos droits.</p>
-      </div>
-    </div>
+      </section>
+    </main>
 
-    </div>
+    <footer>
+      <!-- <p>&copy; 2023 Location d'engins agricoles</p> -->
+    </footer>
 
-
-
-
-    <!-- section newslatter -->
-    <section>
-
-    </section>
-
-  </main>
-
-  <footer>
-    <!-- <p>&copy; 2023 Location d'engins agricoles</p> -->
-  </footer>
-
-</body>
+  </body>
 
 </html>
